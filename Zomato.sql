@@ -137,7 +137,7 @@ order by 2 desc
 
 ----------------------------------------------------------------------------------
 
--- 7. Top 2 countries having Avr. rating of more than 4.5
+-- 8. Top 2 countries having Avr. rating of more than 4.5
 
 Select top (2) Zomatocountrycode.Country, AVG(rating) as 'AVG. Rating'
 From PortfolioProject.dbo.ZomatoData, PortfolioProject.dbo.Zomatocountrycode
